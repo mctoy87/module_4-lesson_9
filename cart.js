@@ -3,9 +3,9 @@
 
 const cart = {
     items: [],      //это товары
-    totalPrice: 0,      //общая стоимость корзины
+    
 
-    get totalPrice() {
+    get totalPrice() {                  //общая стоимость корзины получается через геттер
         return this.calculateItemPrice();
     },
 
